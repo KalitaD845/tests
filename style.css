@@ -1,0 +1,183 @@
+body{
+    background-color: rgba(0,0,0,0.1);
+}
+.one, .two{
+    border: 2px solid rgba(0,0,0,0.6);
+    border-radius: 5px;
+    box-shadow: 0 0px 8px rgba(0,0,0,0.5);
+}
+input{
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.three{
+     text-align: center;
+     display: block;
+}
+.zakaz{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #87ab5b;
+    background-position: center center;
+    border-color: #9c9c9c;
+    border-style: solid;
+    padding: 8px 0;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px 3px rgb(116, 170, 51);
+    width: 70%;
+    margin: auto;
+}
+.btnZakaz{
+    text-align: center;
+}
+.zakaz:hover{
+    background-color:  rgb(84, 138, 19);
+}
+h6{
+    font-size: 20px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.55;
+}
+.adjustingFeet{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.yes, .no{
+    color: #000000;
+    font-size: 17px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 5px;
+    background-position: center center;
+    background-color: rgba(0,0,0,0.1);
+    border-color: #000000;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    height: fit-content;
+}
+.yes:hover{
+    background-color: rgb(84, 138, 19);
+}
+.no:hover{
+    background-color: rgb(236, 120, 37);
+}
+.selectProfile{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    text-align: center;
+}
+.icon{
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto',Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+    
+    background-color: #e66b00;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+    color: #ffffff;
+    width: 22px;
+    height:22px;
+    border-radius: 11px;
+}
+.test{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+}
+.table{
+    background-image: url(img/table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 130px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0px 8px rgba(224, 224, 224, 0.911);
+}
+.question{
+    color: white;
+    background-color: #e66b00;
+    text-align: center;
+    border-radius: 100%;
+}
+.hint{
+    position: relative;
+    
+}
+.hint::after{
+    position: absolute;
+    top: 15%;
+    right: -10px;
+    content:'?';
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #e66b00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(165, 165, 165)  ;
+}
+.calc{
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(121, 120, 120, 0.5);
+    border-radius: 5px;
+    width: 100%
+}
+.selectOne{
+    position: relative;
+    left: 2px;
+}
+.sxema{
+    text-align: center;
+}
+span title{
+    background-color: aqua;
+}
+.calculates{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #87ab5b;
+    background-position: center center;
+    border-color: #9c9c9c;
+    border-style: solid;
+    padding: 8px 0;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px 3px rgb(116, 170, 51);
+    width: 200px;
+    margin: auto;
+}
+.calculates:hover{
+    background-color:  rgb(84, 138, 19);
+}
+.calculates:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-delay: 3s; 
+}
+.calculatesBtn{
+    display: flex;
+}
